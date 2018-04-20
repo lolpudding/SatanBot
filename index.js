@@ -66,7 +66,7 @@ bot.on("message", async message => {
 	for(var i = 0; i < messageLength; i++){
 		xpAdd+=1;
 	}
-	//console.log(xpAdd * 3);
+	//console.log(xpAdd * 1);
 	
 	if(!xp[message.author.id]){
 		xp[message.author.id] = {
