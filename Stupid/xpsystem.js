@@ -19,6 +19,7 @@ module.exports.run = async(bot, message, args) => {
 	.setColor("#ff0707")
 	.setAuthor(`☽ ${message.author.username} ☾`)
 	//.setAuthor(message.author.username)
+	.addField("!!! NOTE !!!", "*Souls have been temporarily disabled for maintenance*")
 	.addField("⚸ Souls Owned", `${currLevel}`)
 	.addField("⚸ XP", `${currXp} out of 666`)
 	.addField("⚸ Crystals", "*Possibly Coming Soon*")
