@@ -61,7 +61,6 @@ bot.on("message", async message => {
 	//----------------------------------------------------------------------------------------------------------------
 	//---------------------------Soul System below--------------------------------------------------------------------
 	//----------------------------------------------------------------------------------------------------------------
-	/*
 	let xpAdd = 0;
 	for(var i = 0; i < messageLength; i++){
 		xpAdd+=1;
@@ -74,7 +73,7 @@ bot.on("message", async message => {
 				level: 0
 		};
 	}
-	
+	/*
 	let currXp = xp[message.author.id].xp;
 	let currLevel = xp[message.author.id].level;
 	xp[message.author.id].xp = currXp + xpAdd * 3;
