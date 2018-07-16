@@ -114,8 +114,7 @@ bot.on("message", async message => {
 	for(var i = 0; i < messageLength; i++){
 		if(messageArray[i] === `fuck` || messageArray[i] === `FUCK` || messageArray[i] === `Fuck`){
 			if(message.channel.id == serverIDcheck){
-			message.channel.send(warnings[warningRand]);
-			return;
+			return message.channel.send(`DEBUG19200000000176`);
 			}
 		}
 	}
@@ -123,8 +122,7 @@ bot.on("message", async message => {
 	for(var i = 0; i < messageLength; i++){
 		if(messageArray[i] === `shit` || messageArray[i] === `SHIT` || messageArray[i] === `Shit`){
 			if(message.channel.id == serverIDcheck){
-			message.channel.send(warnings[warningRand]);
-			return; 
+			return message.channel.send(warnings[warningRand]);
 			}
 		}
 	}
