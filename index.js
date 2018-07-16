@@ -109,7 +109,7 @@ bot.on("message", async message => {
 	"WITH THAT LANGUAGE A PREIST WILL TEAR YOU A NEW ASSHOLE"
 	];
 	
-	let warningRand = Math.floor(Math.random() * Math.floor(4));
+	var warningRand = Math.floor(Math.random() * Math.floor(4));
 	
 	for(var i = 0; i < messageLength; i++){
 		if(messageArray[i] === `fuck` || messageArray[i] === `FUCK` || messageArray[i] === `Fuck`){
