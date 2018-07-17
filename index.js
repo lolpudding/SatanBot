@@ -106,21 +106,30 @@ bot.on("message", async message => {
 	"THIS IS A CHRISTIAN MINECRAFT SERVER NO PROFANITY",
 	"YOU'RE GOING TO HELL FOR THAT LANGUAGE EXCUSE ME",
 	"REEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
-	"WITH THAT LANGUAGE A PREIST WILL TEAR YOU A NEW ASSHOLE"
+	"WITH THAT LANGUAGE A PREIST WILL TEAR YOU A NEW ASSHOLE",
+	"*bitchslaps you*"
 	];
 	
-	var warningRand = Math.floor(Math.random() * Math.floor(4));
+	var warningRand = Math.floor(Math.random() * Math.floor(5));
 	
 	for(var i = 0; i < messageLength; i++){
 		if(messageArray[i] === `fuck` || messageArray[i] === `FUCK` || messageArray[i] === `Fuck`){
 			if(message.channel.id == serverIDcheck){
-			return message.channel.send(`DEBUG19200000000176`);
+			return message.channel.send(warnings[warningRand]);
 			}
 		}
 	}
 	
 	for(var i = 0; i < messageLength; i++){
 		if(messageArray[i] === `shit` || messageArray[i] === `SHIT` || messageArray[i] === `Shit`){
+			if(message.channel.id == serverIDcheck){
+			return message.channel.send(warnings[warningRand]);
+			}
+		}
+	}
+	
+	for(var i = 0; i < messageLength; i++){
+		if(messageArray[i] === `bitch` || messageArray[i] === `BITCH` || messageArray[i] === `Bitch`){
 			if(message.channel.id == serverIDcheck){
 			return message.channel.send(warnings[warningRand]);
 			}
