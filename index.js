@@ -26,7 +26,7 @@ fs.readdir("./Stupid/", (err, files) => {
 
 bot.on("ready", async () =>{
 	console.log('($bot.user.username) is online!');
-	bot.user.setActivity("The Sims 3");
+	bot.user.setActivity("Jerking off");
 });
 
 bot.on("message", async message => {
