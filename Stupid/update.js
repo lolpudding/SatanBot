@@ -7,8 +7,8 @@ module.exports.run = async(bot, message, args) => {
 	let messageSend = new Discord.RichEmbed()
 	.setColor("#ff0707")
 	.setAuthor("☽ Updates ☾")
-	.setTitle("*Update V0.85*")
-	.addField("⚸ Minor Updates", "More lines to screech at users for swearing in the safe server. Only one new word added to the swear list.")
+	.setTitle("*Update V0.87*")
+	.addField("⚸ New Command - Lewdface", "Now with hentai faces! Ugggh I've been so lazy to do anything lately....T_T")
 	.setFooter("☽ Thank you for following the development of SatanBot ☾", message.author.displayAvatarURL);
 	
 	message.channel.send(messageSend);
