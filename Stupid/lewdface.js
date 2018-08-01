@@ -9,7 +9,9 @@ module.exports.run = async(bot, message, args) => {
   "https://cdn.glitch.com/36f03320-93bc-427d-b121-5a7cd17716b1%2Fbee62963b410bb0a232d0e03a460d6f74b9b9555r1-450-319v2_00.jpg?1533172825821"
   ]
   
-	message.channel.send(image);
+  let imagepick = Math.floor((Math.random() * image.length));
+  
+	message.channel.send(image[imagepick]);
 	return;
 }
 
