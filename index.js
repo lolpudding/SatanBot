@@ -102,12 +102,22 @@ bot.on("message", async message => {
 		return message.channel.send(messageSend);
 	}
 	
+	/*
 	let warnings = [
 	"THIS IS A CHRISTIAN MINECRAFT SERVER NO PROFANITY",
 	"YOU'RE GOING TO HELL FOR THAT LANGUAGE EXCUSE ME",
 	"REEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
 	"WITH THAT LANGUAGE A PRIEST WILL TEAR YOU A NEW ASSHOLE",
 	"*bitchslaps you*"
+	];
+	*/
+	
+	let warnings = [
+	"...",
+	"...",
+	"...",
+	"...",
+	"..."
 	];
 	
 	var warningRand = Math.floor(Math.random() * Math.floor(5));
