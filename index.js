@@ -33,6 +33,32 @@ bot.on("message", async message => {
 	if(message.author.bot) return;
 	if(message.channel.type === "dm") return;
 	
+	let emojiThing = Math.floor(Math.random() * 8);
+	if(emojiThing === 0){
+		message.react('🌈');
+	}
+	else if(emojiThing === 1){
+		message.react('🏳️‍🌈');
+	}
+	else if(emojiThing === 2){
+		message.react('❤️');
+	}
+	else if(emojiThing === 3){
+		message.react('🧡');
+	}
+	else if(emojiThing === 4){
+		message.react('💛');
+	}
+	else if(emojiThing === 5){
+		message.react('💚');
+	}
+	else if(emojiThing === 6){
+		message.react('💙');
+	}
+	else if(emojiThing === 7){
+		message.react('💜');
+	}
+	
 	let prefix = botconfig.prefix;
 	let messageArray = message.content.split(" ");
 	let cmd = messageArray[0];
